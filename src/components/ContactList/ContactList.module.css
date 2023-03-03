@@ -1,0 +1,13 @@
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-left: 10px;
+}
+
+/* Пропадає точка для li при додавані їй  display: flex*/
+.contact__list__item {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
